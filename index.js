@@ -13,6 +13,7 @@ fetch(`https://www.boardgamegeek.com/xmlapi2/thing?id=${id}`).then(
 //  (3) Maybe expand metadata with a personal dictionary
 //       - BGG allows specifying comments in individual games in collection - support TAG= syntax?
 //         Allow overriding values, such as MAXPLAYERS=5 for The Birds Told Me To Do It?
+//         LOCATION=office - useful for only showing game that are local (no location == "home"?)
 
 // Local storage should be a versioned JSON structure, probably? Maybe a proto if we're using TS?
 //  - if version mismatch then just reread - no big deal
