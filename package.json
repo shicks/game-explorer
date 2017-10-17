@@ -1,0 +1,23 @@
+{
+  "name": "game-explorer",
+  "version": "1.0.0",
+  "description": "Simple app to explore and filter BoardGameGeek collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shicks/game-explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shicks/game-explorer/issues"
+  },
+  "homepage": "https://github.com/shicks/game-explorer#readme",
+  "devDependencies": {
+    "google-closure-compiler": "^20170910.0.0",
+    "gulp": "^3.9.1"
+  }
+}
